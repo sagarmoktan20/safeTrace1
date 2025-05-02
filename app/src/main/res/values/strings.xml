@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SafeTrace</string>
+    <string name="cardString">In case of emergency keep telling your family to contact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
