@@ -8,7 +8,7 @@
     <style name="Theme.SafeTrace" parent="Base.Theme.SafeTrace" />
     <style name="SplashTheme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@drawable/ic_launcher_background</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_sos</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_location_on_24</item>
         <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
         <item name="postSplashScreenTheme">@style/Theme.SafeTrace</item>
     </style>

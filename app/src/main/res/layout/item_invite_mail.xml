@@ -10,6 +10,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:letterSpacing="0.03"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/mail_background"
+        android:elevation="2dp"
+        android:maxLines="1"
+        android:ellipsize="end"
         app:layout_constraintEnd_toStartOf="@id/accept"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,22 +29,44 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="Accept"
-        android:textColor="@color/lightGreen"
+        android:textColor="@android:color/white"
         android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/accept_background"
+        android:elevation="3dp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="@id/mail"
         app:layout_constraintEnd_toStartOf="@id/deny"
         app:layout_constraintTop_toTopOf="@id/mail" />
+
 
     <TextView
         android:id="@+id/deny"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Deny"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/deny_background"
+        android:elevation="3dp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="@id/mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/mail" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

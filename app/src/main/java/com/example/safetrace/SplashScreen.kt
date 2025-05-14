@@ -1,5 +1,6 @@
 package com.example.safetrace
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +9,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 
 class SplashScreen : AppCompatActivity() {
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         // Use the new splash screen API
         installSplashScreen()

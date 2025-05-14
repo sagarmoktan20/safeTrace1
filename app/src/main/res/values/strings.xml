@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SafeTrace</string>
-    <string name="cardString">In case of emergency keep telling your family to contact</string>
+    <string name="cardString">"Invite someone special!
+Share real-time location for fun that's safe and connected." 🚀🌍</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="server_client_id">1089086978374-litu48b79mk1krpm90gtu6q70omljen2.apps.googleusercontent.com</string>
